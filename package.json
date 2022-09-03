@@ -1,0 +1,22 @@
+{
+  "name": "fm-meet-landing",
+  "version": "1.0.0",
+  "description": "![Design preview for the Meet landing page coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqirum/FM-meet-landiing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sqirum/FM-meet-landiing/issues"
+  },
+  "homepage": "https://github.com/sqirum/FM-meet-landiing#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
