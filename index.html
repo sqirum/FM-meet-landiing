@@ -9,18 +9,20 @@
   <link rel="stylesheet" href="dist/output.css">
   <title>Frontend Mentor | Meet landing page</title>
 </head>
-<body class="font-body">
+<body class="font-body text-neutral-200 text-lg leading-6">
   <header>
-    <div class="logo">
-      <img src="assets/logo.svg" alt="meet logo">
+    <div class="py-10">
+      <img src="assets/logo.svg" alt="meet logo" class="mx-auto">
     </div>
-    <div class="hero">
+    <div class="grid grid-cols-2">
       <img src="assets/desktop/image-hero-left.png" alt="multiple circles with faces">
+      <div>
+        <h1 class="text-4xl font-black text-center text-neutral-300">Group Chat <br> for Everyone</h1>
+        <p class="text-center">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+        <button class="btn bg-primary-300 hover:bg-primary-200 block mx-auto">Download <span class="text-primary-100 font-normal">v1.3</span></button>
+        <button class="btn bg-secondary-300 hover:bg-secondary-200 block mx-auto">What is it?</button>
+      </div>
       <img src="assets/desktop/image-hero-right.png" alt="multiple circles with faces">
-      <h1 class="text-3xl font-bold underline">Group Chat for Everyone</h1>
-      <p class="text-primary-200 bg-secondary-200">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
-      <button>Download <span>v1.3</span></button>
-      <button>What is it?</button>
     </div>
   </header>
 
@@ -29,11 +31,11 @@
       01
     </div>
 
-    <div class="images-block">
-      <img src="assets/desktop/image-woman-in-videocall.jpg" alt="woman in videocall">
-      <img src="assets/desktop/image-women-videochatting.jpg" alt="woman videochatting">
-      <img src="assets/desktop/image-men-in-meeting.jpg" alt="men in meeting">
-      <img src="assets/desktop/image-man-texting.jpg" alt="man texting">
+    <div class="grid grid-cols-2 gap-6 mx-6">
+      <img src="assets/desktop/image-woman-in-videocall.jpg" alt="woman in videocall" class="rounded-xl">
+      <img src="assets/desktop/image-women-videochatting.jpg" alt="woman videochatting" class="rounded-xl">
+      <img src="assets/desktop/image-men-in-meeting.jpg" alt="men in meeting" class="rounded-xl">
+      <img src="assets/desktop/image-man-texting.jpg" alt="man texting" class="rounded-xl">
     </div>
 
     <div class="overline">
@@ -53,7 +55,7 @@
   <footer>
     <h2>Experience more together</h2>
     <p>Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
-    <button>Download v1.3</button>
+    <button class="btn bg-secondary-300 hover:bg-secondary-200">Download <span class="text-secondary-100 font-normal">v1.3</span></button>
   </footer>
 </body>
 </html>
