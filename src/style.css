@@ -6,3 +6,38 @@
 .btn {
     @apply rounded-full font-bold text-white px-4 py-3;
 }
+
+.circle {
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    border: 1px solid rgba(135, 135, 157, .25);
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 84px;
+    position: relative;
+    font-weight: 900;
+    background-color: white;
+}
+
+.circle::before {
+    display: block;
+    content: '';
+    height: 84px;
+    width: 1px;
+    margin: 0 auto;
+    background-color: rgba(135, 135, 157, .25);
+    transform: translateY(-84px);
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.blend-bg {
+    background: rgba(77, 150, 168, .9) url(/assets/desktop/image-footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
